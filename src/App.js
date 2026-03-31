@@ -59,7 +59,7 @@ function App() {
         <select
           className="country-dd"
           label="Select Country"
-          id="coutry-select"
+id="country-select"
           name="country-select"
           value={selectedCountry}
           onChange={handleCountryChange}

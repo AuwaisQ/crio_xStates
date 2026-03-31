@@ -124,7 +124,7 @@ id="country-select"
         </select>
       </div>
 
-      <p>You selected: {`${selectedCity}, ${selectedState}, ${selectedCountry}`}</p>
+      <p>You selected {`${selectedCity}, ${selectedState}, ${selectedCountry}`}</p>
     </div>
   );
 }

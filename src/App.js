@@ -35,7 +35,7 @@ function App() {
         .then(data => setCity(data))
         .catch(error => console.error('Error fetching data:', error));
     }
-  }, [selectedState]);
+  }, [selectedCountry,selectedState]);
 
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
